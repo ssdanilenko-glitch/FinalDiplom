@@ -1,0 +1,49 @@
+# Git
+.git
+.gitignore
+.gitattributes
+.github/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project
+tests/
+docs/
+*.md
+!README.md
+notebooks/
+data/
+
+# Docker
+Dockerfile
+compose.yaml
+compose.override.yaml
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
